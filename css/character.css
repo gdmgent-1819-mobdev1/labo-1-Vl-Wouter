@@ -1,0 +1,17 @@
+html, body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #bbd8db;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.canvas {
+    background: #000000;
+    box-shadow: 0 0 15px #333;
+}
