@@ -20,8 +20,6 @@ function refreshClock() {                                                       
   document.getElementById('minute').style.transform = `rotate(${degreeM}deg)`;
   document.getElementById('second').style.transform = `rotate(${degreeS}deg)`;
 
-  console.log(now.getHours());
-
   now.getHours() < 12 ? document.getElementById('noon').innerHTML = 'AM' : document.getElementById('noon').innerHTML = 'PM';
 
   setTimeout(refreshClock, 1000);                                                   // Redo this function every second
