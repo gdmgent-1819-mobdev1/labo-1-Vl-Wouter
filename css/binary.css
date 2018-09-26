@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+html, body {
+    background: #ecf8f8;
+    font-family: 'Open Sans', 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.container {
+    width: 70%;
+}
+
+.smallcontainer {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.row {
+    align-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.rowdot {
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 70%;
+}
+
+.dot {
+    background: #999;
+    border-radius: 25px;
+    height: 25px;
+    width: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    transition: all 0.15s;
+    -webkit-transition: all 0.15s;
+    -moz-transition: all 0.15s;
+    -ms-transition: all 0.15s;
+    -o-transition: all 0.15s;
+}
+
+.on {
+    background: #8ce7e1;
+    box-shadow: 0px 0px 5px #8ce7e1;
+    transition: all 0.15s;
+    -webkit-transition: all 0.15s;
+    -moz-transition: all 0.15s;
+    -ms-transition: all 0.15s;
+    -o-transition: all 0.15s;
+}
+
+#clock {
+    color: #0a2239;
+    font-size: 32pt;
+    font-weight: 700;
+}
+
+.times {
+    color: #0a2239;
+    font-weight: 300;
+}
