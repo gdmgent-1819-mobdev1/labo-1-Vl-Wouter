@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+body {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: 100vw;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.card {
+  border: 1px solid #fdfdfd;
+  border-radius: 6px;
+  box-shadow: 0 0 12px #888;
+  flex-basis: 30%;
+  padding: 2%;
+  display: flex;
+  flex-flow: column wrap;
+  margin: 2% 0;
+  height: 250px;
+}
+
+.spaces {
+  flex-basis: 100%;
+  align-items: flex-end;
+}
+
+.green {
+  background-color: #3be460;
+}
+
+.orange {
+  background-color: #ed6400;
+}
+
+.red {
+  background-color: #e43b3b;
+}
+
+.num {
+  font-weight: 700;
+  font-size: 28pt;
+}

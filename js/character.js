@@ -7,11 +7,11 @@ function draw(x, y) {
     ctx.fill();
 }
 
-for( let x = 0; x < 12; x++) {
+for( let x = 0; x < 7; x++) {
     for(let y = 0; y < 13; y++) {
         if(Math.random() < 0.5) {
             draw(x, y);
-            if(x < 11) {
+            if(x < 6) {
                 draw(12 - x, y);
             }
         }
