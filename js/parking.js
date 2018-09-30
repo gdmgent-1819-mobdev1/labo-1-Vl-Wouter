@@ -8,6 +8,7 @@ function getData() {
     response.json().then(function(data) {
       let oldspots = [];
       let newspots = [];
+      let icon = ''
       if(localStorage.getItem('parkingSpot') != null) {
         oldspots = getSpots();
       }
